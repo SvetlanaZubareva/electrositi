@@ -545,6 +545,8 @@ html, body {
   line-height: 18.75px;
 }
 .section-menu-mobil_button{
+  width: 97%;
+  margin: 0 auto;
   margin-top: 10px;
   display: flex;
   justify-content: end;
@@ -564,6 +566,10 @@ html, body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid #e8e8e8;
+}
+.close-modal{
+  display: none;
 }
 
 

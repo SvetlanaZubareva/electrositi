@@ -571,6 +571,74 @@ html, body {
 .close-modal{
   display: none;
 }
+.header-list-item_list-item:hover .header-list-item_list-item-link svg path {
+  stroke: #e11c4b; 
+  fill: #e11c4b; 
+}
+
+.header-list-item_list-item:hover .header-list-item_list-item-link .header-list-item_list-item-span {
+  color: #e11c4b; 
+}
+
+.header-list-item--hover:hover .header-list-item_list-item-link svg path {
+  stroke: #e11c4b; 
+  fill: #e11c4b;
+}
+
+
+.header-list-item--hover:hover .header-list-item_list-item-span {
+  color: #e11c4b;
+}
+
+
+.header-list-item--serch:hover .header-list-item--serch-span {
+  color: #e11c4b; 
+}
+
+
+.header-list-item--serch:hover .header-list-item--serch-link svg path {
+  fill: #e11c4b; 
+}
+.navigation-list-item_link:hover{
+  color: #e11c4b; 
+}
+.footer-list-item_list-link:hover{
+  color: #e11c4b; 
+}
+
+
+.footer-list-item_list-item:hover span {
+  color: #e11c4b; 
+}
+
+
+.footer-list-item_list-item:hover svg path {
+  stroke: #e11c4b; 
+}
+
+.footer-section_list-item:hover svg circle {
+  stroke: #e11c4b; 
+}
+
+.footer-section_list-item:hover svg path {
+  fill: #e11c4b; 
+}
+.svg-button{
+  cursor: pointer;
+}
+
+#scrollButton:hover circle {
+  stroke: #e11c4b; 
+}
+
+#scrollButton:hover path {
+  stroke: #e11c4b; 
+}
+
+
+
+
+
 
 
 

@@ -31,8 +31,11 @@ const adjustItemsPerScreen = () => {
     }
     if (screenWidth <= 768) {
         itemsPerScreen = 6.5; // Show 3 items on medium screens
-    }  
-    if (screenWidth <= 480) {
+    } 
+    if (screenWidth <= 700) {
+        itemsPerScreen = 5; // Show 2 items on small screens
+    } 
+    if (screenWidth <= 550) {
         itemsPerScreen = 3.5; // Show 2 items on small screens
     }
 
